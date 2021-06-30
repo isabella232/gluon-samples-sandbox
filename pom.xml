@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.gluonhq.samples</groupId>
+    <artifactId>samples</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>Gluon Samples</name>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>11</maven.compiler.release>
+        <javafx.version>17-ea+13</javafx.version>
+        <charm.version>6.0.7-API-CHANGE-RELEASE-JUNE-2021</charm.version>
+        <charm.cloudlink.client.version>6.0.7</charm.cloudlink.client.version>
+        <glisten.afterburner.version>2.0.6-API-CHANGE-RELEASE-JUNE-2021</glisten.afterburner.version>
+        <attach.version>4.0.11</attach.version>
+        <connect.version>2.0.1</connect.version>
+        <javafx.maven.plugin.version>0.0.6</javafx.maven.plugin.version>
+        <gluonfx.maven.plugin.version>1.0.2</gluonfx.maven.plugin.version>
+    </properties>
+
+    <modules>
+        <module>samples-legacy</module>
+        <module>samples-new</module>
+    </modules>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>maven-central</id>
+            <url>https://repo1.maven.apache.org/maven2/</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>maven-snapshots</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+        </pluginRepository>
+    </pluginRepositories>
+
+</project>

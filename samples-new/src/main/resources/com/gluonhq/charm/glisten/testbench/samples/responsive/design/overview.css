@@ -1,0 +1,16 @@
+.rect {
+    -fx-border-color: darkred;
+    -fx-border-radius: 4;
+    -fx-background-color: lightcoral;
+    -fx-background-radius: 4;
+    -fx-padding: 20, 50, 20, 50;
+}
+
+.small-device .rect.small-device,
+.medium-device .rect.medium-device,
+.large-device .rect.large-device,
+.default .rect.default,
+.desktop .rect.desktop {
+    -fx-border-color: darkgreen;
+    -fx-background-color: lightgreen;
+}

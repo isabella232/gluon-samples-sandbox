@@ -1,0 +1,7 @@
+[
+  {"name":"Crysis","developer":"Crytek Frankfurt","publisher":"Electronic Arts","genres":["First Person Shooter"],"year":2007,"metaScore":91},
+  {"name":"Hearts of Iron","developer":"Paradox Development Studios","publisher":"Strategy First","genres":["Grand Strategy"],"year":2002,"metaScore":72},
+  {"name":"Payday: The Heist","developer":"Overkill Software","publisher":"505 Games","genres":["First Person Shooter"],"year":2013,"metaScore":76},
+  {"name":"Torchlight","developer":"Runic Games","publisher":"Runic Games","genres":["Action RPG","Hack and Slash"],"year":2009,"metaScore":83},
+  {"name":"X3: Terran Conflict","developer":"Egosoft","publisher":"Egosoft","genres":["Space Simulation"],"year":2008,"metaScore":76}
+]

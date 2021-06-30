@@ -1,0 +1,320 @@
+[
+  {
+    "name":"com.gluonhq.charm.glisten.animation.BounceInDownTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.BounceInLeftTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.BounceInRightTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.BounceInTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.BounceInUpTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.BounceOutDownTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.BounceOutLeftTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.BounceOutRightTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.BounceOutTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.BounceOutUpTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.BounceTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.FadeInDownBigTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.FadeInDownTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.FadeInLeftBigTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.FadeInLeftTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.FadeInRightBigTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.FadeInRightTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.FadeInTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.FadeInUpBigTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.FadeInUpTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.FadeOutDownBigTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.FadeOutDownTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.FadeOutLeftBigTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.FadeOutLeftTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.FadeOutRightBigTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.FadeOutRightTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.FadeOutTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.FadeOutUpBigTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.FadeOutUpTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.FlashTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.FlipInXTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.FlipInYTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.FlipOutXTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.FlipOutYTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.FlipTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.HingeTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.PulseTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.RollInTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.RollOutTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.RotateInDownLeftTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.RotateInDownRightTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.RotateInTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.RotateInUpLeftTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.RotateInUpRightTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.RotateOutDownLeftTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.RotateOutDownRightTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.RotateOutTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.RotateOutUpLeftTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.RotateOutUpRightTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.ShakeTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.SwingTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.TadaTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  },
+  {
+    "name":"com.gluonhq.charm.glisten.animation.WobbleTransition",
+    "methods":[
+      {"name":"<init>","parameterTypes":["javafx.scene.Node"] }
+    ]
+  }
+]
