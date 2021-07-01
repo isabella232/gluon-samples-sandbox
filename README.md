@@ -1,26 +1,52 @@
 # Gluon Samples
 
-Java, JavaFX and Gluon Mobile samples to run with Java 11+, GraalVM and the Gluon Client plugin for [Maven](https://github.com/gluonhq/gluonfx-maven-plugin/).
+Sandbox repository to test API changes made to Glisten and Glisten-Afterburner.
 
-The following platforms are currently supported:
+## Changes in Glisten framework
 
-* Linux
-* Mac OS X
-* Windows
-* iOS
-* Android
+* `MobileApplication` has been deprecated, use `MobileApplicationManager` instead.
+* There is no need to extend from `MobileApplication`, extending from `Application` should be enough.
+ Make sure to instantiate `MobileApplicationManager` and call `MobileApplicationManager#start` from `Application#start`.
 
-## Documentation
+```
+public class GluonApp extends Application {
 
-Before getting started with this samples, read the Client plugin [documentation](https://docs.gluonhq.com/).
+    private MobileApplicationManager app = MobileApplicationManager.initialize();
+
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+        app.start(primaryStage);
+    }
+    ...
+}
+```
+
+* To add and switch views, use methods from `MobileApplicationManager` instead:
+
+```
+MobileApplicationManager.getInstance().addViewFactory(HOME, GluonView::new)
+MobileApplicationManager.getInstance().switchView(HOME);
+```
+
+* To update get instances of AppBar and NavigationDrawer, use the following methods:
+
+```
+MobileApplicationManager.getInstance().getAppBar()
+MobileApplicationManager.getInstance().getDrawer();
+```
+
+## Changes in Glisten Afterburner framework
+
+1. Presenter/Controller class no longer needs to extend `GluonPresenter`, which has been deprecated
+2. `AppView#registerView` no longer needs an instance of `MobileApplication`
 
 ## Build and run the samples
 
 Visit each sample's README for further instructions.
 
-## Issues and Contributions ##
+## Issues and Contributions
 
-Issues can be reported to the [Issue tracker](https://github.com/gluonhq/gluon-samples/issues)
+Issues can be reported to the https://github.com/gluonhq/gluon-samples/issues[Issue tracker]
 
-Contributions can be submitted via [Pull requests](https://github.com/gluonhq/gluon-samples/pulls), 
-providing you have signed the [Gluon Individual Contributor License Agreement (CLA)](https://cla.gluonhq.com).
+Contributions can be submitted via https://github.com/gluonhq/gluon-samples/pulls[Pull requests],
+providing you have signed the https://cla.gluonhq.com[Gluon Individual Contributor License Agreement (CLA)].
