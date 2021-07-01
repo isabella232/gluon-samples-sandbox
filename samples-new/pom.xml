@@ -122,21 +122,19 @@
                     </attachList>
                     <mainClass>${main.class}</mainClass>
                     <reflectionList>
-                        <list>com.gluonhq.samples.notes.model.Model</list>
-                        <list>com.gluonhq.samples.notes.model.Note</list>
-                        <list>com.gluonhq.samples.notes.model.Settings</list>
-                        <list>com.gluonhq.samples.notes.service.Service</list>
-                        <list>com.gluonhq.samples.notes.views.EditionPresenter</list>
-                        <list>com.gluonhq.samples.notes.views.FilterPresenter</list>
-                        <list>com.gluonhq.samples.notes.views.NotesPresenter</list>
-                        <list>com.gluonhq.samples.notes.views.SettingsPresenter</list>
+                        <list>com.gluonhq.glisten.afterburner.testbench.views.FirstPresenter</list>
+                        <list>com.gluonhq.glisten.afterburner.testbench.views.SecondPresenter</list>
+                        <list>com.gluonhq.glisten.afterburner.testbench.service.Service</list>
+                        <list>com.gluonhq.connect.testbench.GluonCloudPresenter</list>
+                        <list>com.gluonhq.connect.testbench.DrawerMenuPopupPresenter</list>
+                        <list>com.gluonhq.connect.testbench.FilePresenter</list>
+                        <list>com.gluonhq.connect.testbench.RestPresenter</list>
+                        <list>com.gluonhq.connect.testbench.entity.Person</list>
+                        <list>com.gluonhq.connect.testbench.entity.ToDoItem</list>
+                        <list>com.gluonhq.connect.testbench.entity.VideoGame</list>
                     </reflectionList>
                     <bundlesList>
-                        <list>com.gluonhq.samples.notes.drawer</list>
-                        <list>com.gluonhq.samples.notes.views.edition</list>
-                        <list>com.gluonhq.samples.notes.views.filter</list>
-                        <list>com.gluonhq.samples.notes.views.notes</list>
-                        <list>com.gluonhq.samples.notes.views.settings</list>
+                        <list>com.gluonhq.glisten.afterburner.testbench.views.first</list>
                     </bundlesList>
                 </configuration>
             </plugin>
